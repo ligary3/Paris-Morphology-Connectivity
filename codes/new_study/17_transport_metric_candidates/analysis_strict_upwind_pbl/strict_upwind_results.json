@@ -1,0 +1,53 @@
+{
+  "status": "STRICT_UPWIND_COMPLETE",
+  "spinup_excluded_before": "2022-07-17_00:00:00",
+  "audit": [
+    {
+      "direction": 45.0,
+      "post_spinup_hours": 5,
+      "baseline_features": 12
+    },
+    {
+      "direction": 67.5,
+      "post_spinup_hours": 12,
+      "baseline_features": 12
+    },
+    {
+      "direction": 90.0,
+      "post_spinup_hours": 12,
+      "baseline_features": 12
+    },
+    {
+      "direction": 112.5,
+      "post_spinup_hours": 29,
+      "baseline_features": 12
+    }
+  ],
+  "summary": [
+    {
+      "metric": "10_1000",
+      "improvement_fraction": 1.0,
+      "median_relative_rmse_change": -0.034606388887128116
+    },
+    {
+      "metric": "10_500",
+      "improvement_fraction": 0.725,
+      "median_relative_rmse_change": -0.020828397012060497
+    },
+    {
+      "metric": "10_800",
+      "improvement_fraction": 1.0,
+      "median_relative_rmse_change": -0.015015487949802708
+    },
+    {
+      "metric": "pbl_int",
+      "improvement_fraction": 0.725,
+      "median_relative_rmse_change": -0.003856085868323778
+    },
+    {
+      "metric": "pbl_mean",
+      "improvement_fraction": 0.575,
+      "median_relative_rmse_change": -0.0023918457589122946
+    }
+  ]
+}

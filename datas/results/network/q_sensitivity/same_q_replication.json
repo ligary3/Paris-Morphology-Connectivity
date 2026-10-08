@@ -1,0 +1,14 @@
+[
+  {
+    "case": "real",
+    "max_absolute_difference": 8.638922910364499e-16,
+    "rmse": 1.7274650095243985e-16,
+    "relative_rmse": 2.9342868498840724e-14
+  },
+  {
+    "case": "homo",
+    "max_absolute_difference": 1.0460382560140147e-15,
+    "rmse": 2.4764037872406565e-16,
+    "relative_rmse": 4.2378029729273565e-14
+  }
+]

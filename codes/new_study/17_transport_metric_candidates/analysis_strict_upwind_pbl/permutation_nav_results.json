@@ -1,0 +1,35 @@
+{
+  "status": "PERMUTATION_COMPLETE",
+  "metric": "10-1000 m mean along-flow transport",
+  "n_permutations": 100,
+  "direction_results": [
+    {
+      "direction": 45.0,
+      "observed_relative_rmse_change": -0.0015716228599919595,
+      "null_median": -0.007491362771016424,
+      "one_sided_p": 0.7227722772277227
+    },
+    {
+      "direction": 67.5,
+      "observed_relative_rmse_change": -0.06947772390970137,
+      "null_median": 0.004382222261695597,
+      "one_sided_p": 0.009900990099009901
+    },
+    {
+      "direction": 90.0,
+      "observed_relative_rmse_change": -0.03760084123465146,
+      "null_median": -0.0003290891603747395,
+      "one_sided_p": 0.07920792079207921
+    },
+    {
+      "direction": 112.5,
+      "observed_relative_rmse_change": -0.030208020784395127,
+      "null_median": 0.008497638939638306,
+      "one_sided_p": 0.0297029702970297
+    }
+  ],
+  "combined_observed_mean_relative_rmse_change": -0.03471455219718498,
+  "combined_null_median": 0.0035237309471289006,
+  "combined_one_sided_p": 0.009900990099009901,
+  "scope": "Simple cell-label permutation diagnostic; spatial block CV remains the primary robustness control."
+}

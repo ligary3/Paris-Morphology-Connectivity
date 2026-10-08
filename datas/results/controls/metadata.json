@@ -1,0 +1,31 @@
+{
+  "sklearn": "1.4.2",
+  "numpy": "1.26.4",
+  "low_fai_threshold": 0.0976565954884937,
+  "alphas": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "gamma_multipliers": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "fine_feature_names": [
+    "real_std",
+    "real_p10",
+    "real_p90",
+    "real_low_fraction",
+    "homo_std",
+    "homo_p10",
+    "homo_p90",
+    "homo_low_fraction"
+  ],
+  "inner_selection": "pooled squared error, four remaining spatial blocks; scaler fitted in each fold",
+  "legacy_max_difference": 1.0928757898653885e-16
+}

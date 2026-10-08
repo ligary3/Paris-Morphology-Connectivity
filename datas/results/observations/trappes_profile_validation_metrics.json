@@ -1,0 +1,57 @@
+{
+  "all_event": {
+    "n_level_pairs": 97,
+    "n_soundings": 9,
+    "temperature_c_n": 74,
+    "temperature_c_bias": -0.7747114270466853,
+    "temperature_c_mae": 0.9451248457638455,
+    "temperature_c_rmse": 1.1762336128481616,
+    "temperature_c_pearson": 0.9931226908150681,
+    "wind_speed_ms_n": 49,
+    "wind_speed_ms_bias": 0.19137600330718849,
+    "wind_speed_ms_mae": 1.2935366973901428,
+    "wind_speed_ms_rmse": 2.01258350824226,
+    "wind_speed_ms_pearson": 0.8784812999375751,
+    "wind_direction_n": 49,
+    "wind_direction_mae_deg": 21.308628866166462,
+    "wind_vector_rmse_ms": 3.2734908647239855
+  },
+  "post_spinup": {
+    "n_level_pairs": 72,
+    "n_soundings": 7,
+    "temperature_c_n": 53,
+    "temperature_c_bias": -0.9015314376551907,
+    "temperature_c_mae": 1.0352353942232977,
+    "temperature_c_rmse": 1.276081819912512,
+    "temperature_c_pearson": 0.9919529503910398,
+    "wind_speed_ms_n": 39,
+    "wind_speed_ms_bias": 0.23684058352435367,
+    "wind_speed_ms_mae": 1.5407780600836811,
+    "wind_speed_ms_rmse": 2.2436758663706975,
+    "wind_speed_ms_pearson": 0.8557754333486407,
+    "wind_direction_n": 39,
+    "wind_direction_mae_deg": 21.801911618779727,
+    "wind_vector_rmse_ms": 3.5557488636947747
+  },
+  "profile_times": [
+    "2022-07-17 00:00:00",
+    "2022-07-17 12:00:00",
+    "2022-07-18 00:00:00",
+    "2022-07-18 12:00:00",
+    "2022-07-19 00:00:00",
+    "2022-07-19 12:00:00",
+    "2022-07-20 00:00:00"
+  ],
+  "pressure_layer": "1000-700 hPa; WRF log-pressure interpolation to observed IGRA levels",
+  "station_grid_distance_km": 0.44699910807182347,
+  "release_offsets_minutes": {
+    "2022-07-17 00:00:00": -45,
+    "2022-07-17 12:00:00": -45,
+    "2022-07-18 00:00:00": -45,
+    "2022-07-18 12:00:00": -45,
+    "2022-07-19 00:00:00": -45,
+    "2022-07-19 12:00:00": -45,
+    "2022-07-20 00:00:00": -45
+  },
+  "source": "NOAA NCEI IGRA v2.2, station FRM00007145 (Trappes)"
+}

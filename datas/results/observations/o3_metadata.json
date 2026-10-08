@@ -1,0 +1,14 @@
+{
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20260910,
+  "bootstrap_block": "6 retained hourly indices, not necessarily consecutive clock hours",
+  "stations": [
+    "PA01H",
+    "PA13",
+    "PA18"
+  ],
+  "common_hours": 23,
+  "original_rho": -0.4364498374034599,
+  "reproduction_abs_error": 0.0,
+  "demeaning": "original one-pass station mean and common-hour mean subtraction, recomputed per subset and bootstrap"
+}

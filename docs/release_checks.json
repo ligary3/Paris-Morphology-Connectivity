@@ -1,0 +1,21 @@
+{
+  "python_scripts_syntax_checked": 59,
+  "notebook_code_cells_checked": 19,
+  "original_file_manifest_count": 115,
+  "manifest_hashes_match": true,
+  "credential_scan_hits": 0,
+  "primary_reproduction": {
+    "comparisons": 40,
+    "improved": 40,
+    "median_rmse_reduction_pct": 3.460638888712831,
+    "max_difference_from_archived_rmse": 1.0928757898653885e-16
+  },
+  "verification_environment": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.2",
+    "scikit_learn": "1.4.2",
+    "threadpoolctl": "3.6.0"
+  },
+  "full_wrf_or_geospatial_rerun": false
+}
