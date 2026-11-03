@@ -1,4 +1,6 @@
-# Directional urban morphology connectivity adds predictive value for low-layer air transport during a Paris heatwave
+# How the spatial arrangement of buildings shapes low-layer airflow: Evidence from a Paris heatwave
+
+[Editable framework](images/framework.pptx) · [Study-area map](images/study_area.png) · [Figure reproduction guide](docs/FIGURES.md)
 
 Code accompanying the Paris July 2022 REAL–HOMO study. The repository links directional morphological connectivity from Circuitscape with paired WRF airflow responses, and tests whether network information improves spatial prediction beyond local, neighborhood and upwind morphology.
 
