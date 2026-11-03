@@ -4,6 +4,8 @@ This repository distributes **derived statistical inputs and results**, not the 
 
 ## Files
 
+- `study_area/`: Paris boundary, example Circuit domain, WRF domain outlines and seven station coordinates for the final map. External inputs are listed in the [figure guide](../docs/FIGURES.md).
+
 - `analysis_inputs/strict_model_inputs.npz`: direction-specific 12-feature baseline, Circuit predictor, projected WRF response and EPSG:2154 coordinates of 85 treatment cells. Keys follow `<quantity>_<direction*10 padded to four digits>`; targets are `y_10_1000_*` and alternative vertical-range targets.
 - `analysis_inputs/enhanced_model_inputs.npz`: saved enhanced 20-feature inputs and matching 13/21-feature network comparisons.
 - `results/primary/`: original direction/seed/vertical-metric RMSE tests and summaries.
