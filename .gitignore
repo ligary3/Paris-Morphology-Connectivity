@@ -10,6 +10,7 @@ datas/external/
 datas/wrf-work/
 datas/cartopy/
 outputs/
+node_modules/
 *.grib
 *.grb
 *.nc
