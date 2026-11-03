@@ -1,3 +1,4 @@
+# Minimal environment for codes/reproduce_primary.py (no WRF or GIS tools needed).
 numpy==1.26.4
 scipy>=1.11,<1.14
 pandas>=2.1,<2.3
